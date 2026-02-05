@@ -1,0 +1,106 @@
+.settings-section {
+    margin-bottom: 24px;
+}
+
+.settings-section-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.settings-section-desc {
+    font-size: 14px;
+    color: var(--text-muted);
+    margin-bottom: 24px;
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.settings-avatar-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.avatar-upload {
+    flex: 1;
+}
+
+.avatar-upload label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.form-group textarea.input-field {
+    resize: none;
+}
+
+.form-group .input-field:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.form-hint {
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.settings-actions {
+    padding-top: 12px;
+}
+
+.settings-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.settings-option:last-child {
+    border-bottom: none;
+}
+
+.settings-option-info h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.settings-option-info p {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.settings-option.danger .settings-option-info h4 {
+    color: var(--danger);
+}
+
+.danger-btn {
+    color: var(--danger);
+}
+
+.danger-btn:hover {
+    background: rgba(239, 68, 68, 0.1);
+}
