@@ -1,0 +1,6 @@
+frontend/node_modules
+frontend/dist
+.git
+.idea
+socialnet.exe
+socialnet.db
